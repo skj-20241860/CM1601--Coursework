@@ -1,0 +1,5 @@
+D001 | Auto Lanka | 0771234567 | Colombo
+D002, Malabe Motors, 0712223344, Malabe
+D003 ; Kandy Spares ; 0812233445 ; Kandy
+D004	Southern Auto	0912233445	Galle
+D005 | Central Parts | 0768889999 | Kurunegala

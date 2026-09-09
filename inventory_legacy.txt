@@ -1,0 +1,5 @@
+P004 | Brake Pad | Brembo | Rs. 7500.00 | 1 | Brakes | 2026-06-18 | no_image.png
+P003 | Headlight Bulb | Philips | Rs. 3200.00 | 12 | Electrical | 2026-07-27 | no_image.png
+P005 | Alternator | Denso | Rs. 45000.00 | 2 | Electrical | 2026-07-27 | no_image.png
+P001 | Oil Filter | Bosch | Rs. 2500.00 | 8 | Engine | 2026-07-27 | oil.png
+P002 | Spark Plug | NGK | Rs. 1800.00 | 3 | Engine | 2026-06-15 | no_image.png
