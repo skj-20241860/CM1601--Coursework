@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane prefHeight="700" prefWidth="1220" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+    <top>
+        <VBox alignment="CENTER" spacing="5" style="-fx-background-color:#243447;">
+            <padding><Insets top="14" right="14" bottom="14" left="14"/></padding>
+            <Label fx:id="titleLabel" textFill="WHITE" style="-fx-font-size:22px;-fx-font-weight:bold;"/>
+            <Label fx:id="lowStockLabel" textFill="#ffcc66" style="-fx-font-size:14px;-fx-font-weight:bold;"/>
+        </VBox>
+    </top>
+    <left>
+        <VBox spacing="9" prefWidth="190" style="-fx-background-color:#eeeeee;">
+            <padding><Insets top="18" right="15" bottom="18" left="15"/></padding>
+            <Button prefWidth="160" text="View Inventory" onAction="#handleViewInventory"/>
+            <Button prefWidth="160" text="Add Part" onAction="#handleAddPart"/>
+            <Button prefWidth="160" text="Update Part" onAction="#handleUpdatePart"/>
+            <Button prefWidth="160" text="Delete Part" onAction="#handleDeletePart"/>
+            <Button prefWidth="160" text="Multi-Criteria Search" onAction="#handleSearchParts"/>
+            <Button prefWidth="160" text="Show Low Stock" onAction="#handleLowStock"/>
+            <Button prefWidth="160" text="Set Threshold" onAction="#handleSetThreshold"/>
+            <Button prefWidth="160" text="Select 4 Dealers" onAction="#handleDealerSelection"/>
+            <Button prefWidth="160" text="Point of Sale Cart" onAction="#handlePointOfSale"/>
+            <Region VBox.vgrow="ALWAYS"/>
+            <Button prefWidth="160" text="Save and Exit" onAction="#handleExit"/>
+        </VBox>
+    </left>
+    <center>
+        <VBox spacing="10">
+            <padding><Insets top="15" right="15" bottom="15" left="15"/></padding>
+            <TableView fx:id="inventoryTable" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="colCode" prefWidth="90" text="Part Code"/>
+                    <TableColumn fx:id="colName" prefWidth="170" text="Part Name"/>
+                    <TableColumn fx:id="colBrand" prefWidth="120" text="Brand"/>
+                    <TableColumn fx:id="colPrice" prefWidth="100" text="Price"/>
+                    <TableColumn fx:id="colQuantity" prefWidth="90" text="Quantity"/>
+                    <TableColumn fx:id="colCategory" prefWidth="120" text="Category"/>
+                    <TableColumn fx:id="colDateAdded" prefWidth="120" text="Date Added"/>
+                    <TableColumn fx:id="colImage" prefWidth="140" text="Image Name"/>
+                </columns>
+            </TableView>
+            <Label fx:id="statusLabel" text="Ready" style="-fx-font-weight:bold;"/>
+        </VBox>
+    </center>
+</BorderPane>
