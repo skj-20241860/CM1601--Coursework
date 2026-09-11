@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="1601CW" />
+        <module name="1601CW (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1601CW (10)" target="21" />
+      <module name="1601CW (11)" target="21" />
+      <module name="1601CW (2)" target="21" />
+      <module name="1601CW (3)" target="21" />
+      <module name="1601CW (4)" target="21" />
+      <module name="1601CW (5)" target="21" />
+      <module name="1601CW (6)" target="21" />
+      <module name="1601CW (7)" target="21" />
+      <module name="1601CW (8)" target="21" />
+      <module name="1601CW (9)" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
